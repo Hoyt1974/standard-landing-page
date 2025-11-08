@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Business Landing Page | Fast, Responsive, Clean</title>
+  <meta name="description" content="Responsive business landing page — mobile-friendly, fast, and built to convert with a clear contact form." />
+  <meta name="keywords" content="landing page, responsive, business website, front-end developer, HTML, CSS, JavaScript, SEO" />
+  <!-- Social preview -->
+  <meta property="og:title" content="Business Landing Page" />
+  <meta property="og:description" content="Clean, modern landing page built for conversions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Business Landing Page" />
+  <meta name="twitter:description" content="Clean, modern landing page built for conversions." />
+  <meta name="twitter:image" content="assets/hero.jpg" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🚀</text></svg>">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="brand">YourBrand</a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Launch a Clean, Fast Landing Page</h1>
+        <p>Mobile-friendly, SEO-ready, and built to convert visitors into customers.</p>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <h2>What You Get</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Responsive Design</h3>
+          <p>Looks great on phones, tablets, and desktops.</p>
+        </article>
+        <article class="card">
+          <h3>Fast Performance</h3>
+          <p>Lightweight code and assets for quick load times.</p>
+        </article>
+        <article class="card">
+          <h3>Clear CTA</h3>
+          <p>Focused layout that drives leads and sales.</p>
+        </article>
+        <article class="card">
+          <h3>Contact Form</h3>
+          <p>Simple form wired to your email via Formspree.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- NEW: 3-image gallery (auto-hides if no valid images) -->
+    <section id="gallery" class="section alt">
+      <h2>Sample Images</h2>
+      <div class="grid work">
+        <figure class="shot">
+          <img src="assets/gallery1.jpg" alt="Gallery image 1" />
+          <figcaption>Project Shot 1</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="assets/gallery2.jpg" alt="Gallery image 2" />
+          <figcaption>Project Shot 2</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="assets/gallery3.jpg" alt="Gallery image 3" />
+          <figcaption>Project Shot 3</figcaption>
+        </figure>
+      </div>
+      <p class="note small">Need a full gallery or video? That’s included in the Premium package.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form id="contact-form" class="contact" action="" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" rows="4" placeholder="Tell me about your project…" required></textarea>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+        <p id="contact-note" class="note"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="y"></span> YourBrand — Landing Page</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
